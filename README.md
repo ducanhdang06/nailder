@@ -36,6 +36,7 @@ A mobile app where customers swipe through nail designs posted by technicians, f
 ---
 
 ## 🧱 Project Structure
+```
 nail-app/
 ├── ios-app/ # SwiftUI frontend
 ├── backend/ # AWS Lambda functions
@@ -47,14 +48,14 @@ nail-app/
 ├── .env.example # Environment variable template
 ├── .gitignore
 └── README.md # You are here
-
+```
 ## To do (MVP Tracker)
-[ ] Authentication (Cognito)
-[ ] Upload nail design to S3
-[ ] Swipe UI and backend logic
-[ ] Match system (DynamoDB)
-[ ] Chat UI and AppSync backend
-[ ]Push notifications
+- [ ] Authentication (Cognito)
+- [ ] Upload nail design to S3
+- [ ] Swipe UI and backend logic
+- [ ] Match system (DynamoDB)
+- [ ] Chat UI and AppSync backend
+- [ ] Push notifications
 
 ## License
 MIT License – feel free to use, contribute, and remix.
